@@ -1,15 +1,71 @@
----
-title: Le Wagon - Middleman
----
-
 <div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
+  <div class="container">
+    <div class="home-content">
+      <h1>Hi! I'm Alexis.</h1>
+      <h2>
+        Fullstack Developer and product lover based in Paris.
+      </h2>
+    </div>
+  </div>
+</div>
+
+<div class="skills">
+  <div class="container">
+    <h2>My expertise</h2>
+    <p id="description-paragraph">
+      I am a fullstack Ruby on Rails developer with an engineering background.<br>
+      I can help startups or entrepreneurs grow their business.
     </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <div class="skill-block">
+          <i class="fas fa-terminal orange"></i>
+          <h3 class="skill-title">Back end</h3>
+          <p class="summary">Ruby, Ruby on Rails</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="skill-block">
+          <i class="fas fa-magic orange"></i>
+          <h3 class="skill-title">Front end</h3>
+          <p class="summary">HTML/CSS/Javascript</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="skill-block">
+          <i class="fab fa-medapps orange"></i>
+          <h3 class="skill-title">Product</h3>
+          <p class="summary">UX/UI</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="realisations">
+  <div class="container">
+    <h2>My work</h2>
+    <div class="project">
+      <div class="project-left">
+        <div class="project-title">
+          <a href="https://www.rising-creators.com" target="_blank">
+            <h3>Creators</h3>
+          </a>
+        </div>
+        <ul class="project-tags">
+          <li>Back end/Front end</li>
+        </ul>
+        <p class="project-description">
+          During the last two weeks of Le Wagon Bootcamp I developped <a href="https://www.rising-creators.com" target="_blank">Creators</a> with Alexandre, Benoit & Hugo.
+          It's a platform where people can discover and share new creators from
+          Youtube.
+        </p>
+      </div>
+      <div class="project-right">
+        <a href="https://www.rising-creators.com" target="_blank">
+          <img src="http://www.rising-creators.com/assets/creators-banner-resized-125c9d0daaf7c056f47bda85a69c47d1df8efc2b6c16549a20a226675f4b03f0.png" alt="Creators" class="project-image">
+        </a>
+      </div>
+    </div>
   </div>
 </div>

@@ -6,12 +6,33 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title %></title>
+    <title>Alexis Pipieri</title>
+    <meta name="description" content="I'm a freelance fullstack Web Developer based in Paris.">
+
+    <!-- Facebook Open Graph data -->
+    <meta property="og:title" content="Alexis Pipieri - Fullstack Web Developer" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.alexispipieri.com/" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="I'm a freelance fullstack Web Developer based in Paris." />
+    <meta property="og:site_name" content="Alexis Pipieri - Fullstack Web Developer" />
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@Pips166">
+    <meta name="twitter:title" content="Alexis Pipieri - Fullstack Web Developer">
+    <meta name="twitter:description" content="I'm a freelance fullstack Web Developer based in Paris.">
+    <meta name="twitter:creator" content="@Pips166">
+    <meta name="twitter:image:src" content="">
+
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application" %>
-    <%= favicon_tag 'images/favicon.png' %>
+    <%= favicon_tag 'images/favicon.ico' %>
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
   </head>
   <body>
+    <%= partial "layouts/navbar" %>
     <%= yield %>
+    <%= partial "layouts/footer" %>
   </body>
 </html>
