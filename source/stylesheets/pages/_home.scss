@@ -1,73 +1,93 @@
+.container{
+  max-width: 878px;
+}
+
+.container-inner{
+  padding: 0 20px;
+  display: flex;
+}
+
+
+.sidebar{
+  flex: 0 0 312px;
+  width: 312px;
+}
+
+// .main{
+//   width: 496px;
+// }
+
+
 body {
+  line-height: 24px;
   p {
-    color: rgba($gray-dark, 0.4);
+    color: rgba($dark-gray, 1);
   }
   a {
-    color: $gray-dark;
+    color: $dark-gray;
     &:hover {
       text-decoration: none;
-      color: $gray-dark;
+      color: $dark-gray;
+    }
+    &:visited {
+      text-decoration: none;
+      color: $dark-gray;
     }
   }
+  ul {
+  list-style: none;
+  padding-left: 0;
+}
 }
 
-// Home
-#home {
-  background-color: rgb(255, 255, 255);
-  color: #333333;
-  height: calc(80vh - 100px);
-  text-align: center;
-  p {
-    margin-top: 1.5em;
+.sidebar-title{
+  h1{
+    color: $blue;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 12px;
   }
-  a {
-    color: rgba(0,0,0,0.4);
-    font-weight: bold;
-    font-size: 16px;
-  }
-}
-
-.home-content {
-  padding-top: 100px;
-  p {
-    font-size: 24px;
+  h2{
+    font-weight: 400;
+    margin-top: 0;
   }
 }
 
-// My skills
-.skills {
-  background-color: $light-gray;
-  text-align: center;
-  padding: 30px 0;
-}
-.summary {
-  text-align: justify;
-  padding: 0 10px;
-}
-
-i.fas {
-  font-size: 40px;
-}
-i.fab {
-  font-size: 40px;
-}
-
-.orange {
-  color: $orange;
-}
-
-#description-paragraph {
-  padding: 30px 0;
-}
-
-// Contact
-.contact {
-  background-color: $light-gray;
-  text-align: center;
-  padding: 30px 10px;
-  min-height: 250px;
-  a {
-    color: $orange;
+.tools-section{
+  margin-top: 56px;
+  h3{
+    margin-top: 0;
   }
 }
 
+.contact-section{
+  margin-top: 48px;
+}
+
+
+.quote {
+  margin-top: 136px;
+  color: rgba($dark-gray, 0.8);
+  font-weight: 300;
+}
+.quote-text{
+  font-size: 24px;
+}
+.quote-credentials {
+  margin-top: 32px;
+  width: 272px;
+  float: right;
+}
+.book{
+  font-style: italic;
+}
+
+.link{
+  box-shadow: inset 0 -6px 0 rgba($blue, 0.8);
+  font-weight: 500;
+  &:hover{
+    box-shadow: inset 0 -6px 0 rgba($blue, 0.2);
+    background-color: rgba($blue, 0.2);
+    transition: all .3s ease-in;
+  }
+}
