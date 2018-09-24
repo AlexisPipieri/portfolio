@@ -1,0 +1,14 @@
+
+<svg width="51px" height="51px" viewBox="0 0 51 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="abstract-logo" fill-rule="nonzero">
+            <g id="Group">
+                <path d="M25.41,0 C5.08,0 0,5.08 0,25.41 C0,45.74 5.08,50.82 25.41,50.82 C45.74,50.82 50.82,45.74 50.82,25.41 C50.82,5.08 45.74,0 25.41,0 Z M21.24,39.31 C15.8702058,39.2934435 11.5289914,34.9298701 11.5400205,29.5600616 C11.5510497,24.1902532 15.9101522,19.8445495 21.2799692,19.8500514 C26.6497861,19.8555532 30.9999745,24.2101802 31,29.58 C30.9889651,34.9608702 26.6208787,39.3155302 21.24,39.31 Z M38.91,38.91 L34.14,38.91 L34.14,16.67 L11.91,16.67 L11.91,11.91 L38.91,11.91 L38.91,38.91 Z" id="Shape" fill="#0E0E0E"></path>
+                <circle id="Oval" fill="#FFFFFF" cx="21.24" cy="29.58" r="4.96"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
