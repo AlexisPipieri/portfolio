@@ -32,6 +32,12 @@
   flex: 1;
 }
 
+@media (max-width: 680px) {
+  .main {
+    margin-top: 50px;
+  }
+}
+
 body {
   line-height: 24px;
   p {
@@ -70,8 +76,10 @@ body {
 
 .tools-section{
   margin-top: 56px;
+  font-weight: 300;
   h3{
     margin-top: 0;
+    font-weight: 400;
   }
 }
 
@@ -81,32 +89,46 @@ body {
 
 .contact-section{
   margin-top: 48px;
+  font-weight: 300;
 }
 
 
 .quote {
-  margin-top: 136px;
+  margin-top: 100px;
   color: rgba($dark-gray, 0.8);
   font-weight: 300;
 }
+
+@media (max-width: 680px) {
+  .quote {
+    margin-top: 72px;
+    margin-bottom: 30px;
+  }
+}
+
 .quote-text{
   font-size: 24px;
 }
 .quote-credentials {
   margin-top: 32px;
-  width: 272px;
+  max-width: 272px;
   float: right;
+}
+@media (max-width: 680px) {
+  .quote-credentials {
+    float: none;
+  }
 }
 .book{
   font-style: italic;
 }
 
 .link{
-  box-shadow: inset 0 -6px 0 rgba($blue, 0.8);
+  box-shadow: inset 0 -6px 0 rgba($blue, 0.4);
   font-weight: 500;
   &:hover{
-    box-shadow: inset 0 -6px 0 rgba($blue, 0.2);
-    background-color: rgba($blue, 0.2);
+    box-shadow: inset 0 -6px 0 rgba($blue, 0.4);
+    background-color: rgba($blue, 0.4);
     transition: all .3s ease-in;
   }
 }
