@@ -7,16 +7,30 @@
   display: flex;
 }
 
+@media (max-width: 680px) {
+  .container-inner {
+    display: block;
+  }
+}
+
 
 .sidebar{
   flex: 0 0 312px;
   width: 312px;
 }
 
-// .main{
-//   width: 496px;
-// }
+@media (max-width: 680px) {
+  .sidebar {
+    width: 100%;
+    box-flex: 1;
+    flex: 1;
+    position: relative;
+  }
+}
 
+.main{
+  flex: 1;
+}
 
 body {
   line-height: 24px;
@@ -37,6 +51,7 @@ body {
   ul {
   list-style: none;
   padding-left: 0;
+  line-height: 2;
 }
 }
 
@@ -58,6 +73,10 @@ body {
   h3{
     margin-top: 0;
   }
+}
+
+.logo-tool{
+  width: 22px
 }
 
 .contact-section{
